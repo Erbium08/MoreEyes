@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": "minecraft:ender_eye",
+    "n": "minecraft:nether_brick"
+  },
+  "pattern": [
+    "nnn",
+    "nen",
+    "nnn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "moreyes:eye_of_fortress"
+  }
+}
