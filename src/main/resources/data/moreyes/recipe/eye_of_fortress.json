@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "e": "minecraft:ender_eye",
-    "n": "minecraft:nether_brick"
+    "e": "minecraft:ender_pearl",
+    "n": "minecraft:netherrack"
   },
   "pattern": [
     "nnn",
