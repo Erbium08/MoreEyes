@@ -16,6 +16,8 @@ public class Items {
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Moreyes.MOD_ID, "eye_of_fortress")))));
     public static final Item EYE_OF_BASTION = registerItem("eye_of_bastion", new EyeOfBastionItem(new Item.Settings()
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Moreyes.MOD_ID, "eye_of_bastion")))));
+    public static final Item EYE_OF_MONUMENT = registerItem("eye_of_monument", new EyeOfMonumentItem(new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Moreyes.MOD_ID, "eye_of_monument")))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Moreyes.MOD_ID, name), item);
