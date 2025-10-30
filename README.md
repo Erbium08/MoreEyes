@@ -1,5 +1,5 @@
 # More Eyes
-More Eyes adds extra locator eyes into minecraft, currently for the Nether Fortress. 
+More Eyes adds extra locator eyes into minecraft, currently for the Nether Fortress and Bastion 
 Works on Fabric 1.21.10
 Link to Modrinth: https://modrinth.com/mod/moreeyes
 
