@@ -1,6 +1,11 @@
-# More Eyes
-More Eyes adds extra locator eyes into minecraft, currently for the Nether Fortress and Bastion 
-Works on Fabric 1.21.10
-Link to Modrinth: https://modrinth.com/mod/moreeyes
+# MoreEyes
 
-Thank you to nick-ninj for the texture
+MoreEyes adds a new items that functions like the Eye of Ender, but instead locates different structures
+Use them to easily find structures without needing to run around aimlessly or use chunkbase
+- Eye of Fortress - Locates Fortresses
+- Eye of Bastion - Locates Bastions
+- Eye of Monument - Locates Ocean Monuments
+
+Modrinth Link: https://modrinth.com/mod/moreeyes
+
+_Thanks to Nick-Ninj for the texture of the Eye of Fortress_
