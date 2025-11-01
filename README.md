@@ -7,5 +7,6 @@ Use them to easily find structures without needing to run around aimlessly or us
 - Eye of Monument - Locates Ocean Monuments
 
 Modrinth Link: https://modrinth.com/mod/moreeyes
+CurseForge Link: https://www.curseforge.com/minecraft/mc-mods/moreeyes
 
 _Thanks to Nick-Ninj for the texture of the Eye of Fortress_
