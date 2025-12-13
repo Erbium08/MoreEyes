@@ -12,12 +12,9 @@ import net.minecraft.util.Identifier;
 
 public class Items {
 
-    public static final Item EYE_OF_FORTRESS = registerItem("eye_of_fortress", new EyeOfFortressItem(new Item.Settings()
-            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Moreyes.MOD_ID, "eye_of_fortress")))));
-    public static final Item EYE_OF_BASTION = registerItem("eye_of_bastion", new EyeOfBastionItem(new Item.Settings()
-            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Moreyes.MOD_ID, "eye_of_bastion")))));
-    public static final Item EYE_OF_MONUMENT = registerItem("eye_of_monument", new EyeOfMonumentItem(new Item.Settings()
-            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Moreyes.MOD_ID, "eye_of_monument")))));
+    public static final Item EYE_OF_FORTRESS = registerItem("eye_of_fortress", new EyeOfFortressItem(new Item.Settings()));
+    public static final Item EYE_OF_BASTION = registerItem("eye_of_bastion", new EyeOfBastionItem(new Item.Settings()));
+    public static final Item EYE_OF_MONUMENT = registerItem("eye_of_monument", new EyeOfMonumentItem(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Moreyes.MOD_ID, name), item);
@@ -29,6 +26,7 @@ public class Items {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
             entries.add(EYE_OF_FORTRESS);
             entries.add(EYE_OF_BASTION);
+            entries.add(EYE_OF_MONUMENT);
         });
     }
 }
