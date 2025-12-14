@@ -29,6 +29,7 @@ public class Items {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
             entries.add(EYE_OF_FORTRESS);
             entries.add(EYE_OF_BASTION);
+            entries.add((EYE_OF_MONUMENT));
         });
     }
 }
