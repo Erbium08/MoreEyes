@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "e": "minecraft:ender_pearl",
-    "n": "minecraft:basalt"
+    "n": "minecraft:sand"
   },
   "pattern": [
     "nnn",
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "moreyes:eye_of_bastion"
+    "id": "moreyes:eye_of_monument"
   }
 }
